@@ -24,9 +24,9 @@ import threejs from "./tech/threejs.svg";
 import sdc from "./company/sdc.png";
 import discord from "./company/discord.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import trustnet from "./trustnet.png";
+import sdcwebsite from "./sdcwebsite.png"
+import beatbot from "./beatbot.png"
 
 export {
   logo,
@@ -52,7 +52,7 @@ export {
   threejs,
   sdc,
   discord,
-  carrent,
-  jobit,
-  tripguide,
+  trustnet,
+  sdcwebsite,
+  beatbot,
 };

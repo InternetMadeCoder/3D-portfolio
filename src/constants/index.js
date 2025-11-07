@@ -15,11 +15,11 @@ import {
   git,
   figma,
   docker,
-  carrent,
-  jobit,
+  trustnet,
+  sdcwebsite,
+  beatbot,
   sdc,
   discord,
-  tripguide,
   threejs,
 } from "../assets";
 
@@ -174,12 +174,12 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "TrustNet'26",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Official website for the International Conference on Trusted Network and Intelligent Systems organized by MUJ.",
     tags: [
       {
-        name: "react",
+        name: "next.js",
         color: "blue-text-gradient",
       },
       {
@@ -191,50 +191,50 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: trustnet,
+    source_code_link: "https://trustnetcon.in/",
   },
   {
-    name: "Job IT",
+    name: "SDC Website",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Developed the official SDC MUJ website to streamline information access, showcase projects, and enhance community collaboration.",
     tags: [
       {
-        name: "react",
+        name: "next.js",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwindCSS",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: sdcwebsite,
+    source_code_link: "https://sdcmuj.com",
   },
   {
-    name: "Trip Guide",
+    name: "BeatBot",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A simple Discord bot that fetches YouTube links based on user search queries using !yt <query>, returning the top result or notifying if none is found.",
     tags: [
       {
-        name: "nextjs",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "spotifyAPI",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "discord.js",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: beatbot,
+    source_code_link: "https://github.com/InternetMadeCoder/beatbot",
   },
 ];
 
