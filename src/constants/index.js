@@ -19,6 +19,7 @@ import {
   sdcwebsite,
   beatbot,
   terminal,
+  lofipod,
   sdc,
   discord,
   threejs,
@@ -217,20 +218,41 @@ const projects = [
     source_code_link: "https://sdcmuj.com",
   },
   {
+    name: "Lofipod",
+    description:
+      "LofiPod provides a peaceful space with curated lofi tracks to support productivity and focus during work or study.",
+    tags: [
+      {
+        name: "react.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindCSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: lofipod,
+    source_code_link: "https://lofipod.netlify.app/",
+  },
+  {
     name: "Terminal Portfolio",
     description:
       "A command-line inspired portfolio where users can browse my projects and profile through simple typed commands.",
     tags: [
       {
-        name: "HTML",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "CSS",
+        name: "css",
         color: "green-text-gradient",
       },
       {
-        name: "JavaScript",
+        name: "javascript",
         color: "pink-text-gradient",
       },
     ],

@@ -28,6 +28,7 @@ import trustnet from "./trustnet.png";
 import sdcwebsite from "./sdcwebsite.png"
 import terminal from "./terminal.png"
 import beatbot from "./beatbot.png"
+import lofipod from "./lofipod.png"
 
 export {
   logo,
@@ -56,5 +57,6 @@ export {
   trustnet,
   sdcwebsite,
   beatbot,
+  lofipod,
   terminal
 };
