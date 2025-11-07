@@ -26,6 +26,7 @@ import discord from "./company/discord.png";
 
 import trustnet from "./trustnet.png";
 import sdcwebsite from "./sdcwebsite.png"
+import terminal from "./terminal.png"
 import beatbot from "./beatbot.png"
 
 export {
@@ -55,4 +56,5 @@ export {
   trustnet,
   sdcwebsite,
   beatbot,
+  terminal
 };

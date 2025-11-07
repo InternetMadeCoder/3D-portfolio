@@ -18,6 +18,7 @@ import {
   trustnet,
   sdcwebsite,
   beatbot,
+  terminal,
   sdc,
   discord,
   threejs,
@@ -214,6 +215,27 @@ const projects = [
     ],
     image: sdcwebsite,
     source_code_link: "https://sdcmuj.com",
+  },
+  {
+    name: "Terminal Portfolio",
+    description:
+      "A command-line inspired portfolio where users can browse my projects and profile through simple typed commands.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: terminal,
+    source_code_link: "https://portfolio.gayathrii.dev/",
   },
   {
     name: "BeatBot",
