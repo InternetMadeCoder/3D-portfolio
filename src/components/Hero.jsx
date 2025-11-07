@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useEffect, useRef } from "react";
 import Typed from "typed.js";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaSpotify } from "react-icons/fa";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
@@ -84,6 +84,17 @@ const Hero = () => {
                 className="text-white hover:text-[#915EFF] transition-colors cursor-pointer"
               >
                 <FaLinkedin size={24} />
+              </button>
+              <button
+                onClick={() =>
+                  window.open(
+                    "https://open.spotify.com/user/3a7uz4m48c77kxsqn5gz85bc6?si=5a9421ff2bfe43c1",
+                    "_blank"
+                  )
+                }
+                className="text-white hover:text-[#915EFF] transition-colors cursor-pointer"
+              >
+                <FaSpotify size={24} />
               </button>
             </div>
           </div>
